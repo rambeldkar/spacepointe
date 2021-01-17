@@ -1,0 +1,388 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+body {
+    padding-top: 3.2rem;
+  }
+  .h-120{
+    height: 120px;
+  }
+  .f-s-1{
+    font-size: 1rem!important;
+  }
+  .py--8{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+  .br-color-top{
+    width: 50px;
+    height: 8px;
+    background: #00adcb;
+    margin-bottom: 10px;
+  }
+  .br-normal-top{
+    width: 50px;
+    height: 8px;
+    background:#fff;
+    margin-bottom: 10px;
+  }
+  .buttonc-primary{
+      padding: 1rem 2.4rem;
+      border-radius: 3rem;
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 1.2rem;
+      background-color: #00adcb;
+      border-color:#00adcb;
+      color:#fff;
+      &:hover{
+        color:#fff
+      }
+  }
+  .buttonc-white{
+      padding: 1rem 2.4rem;
+      border-radius: 3rem;
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 1.2rem;
+      background-color: #fff;
+      border-color:#fff;
+      color:#000;
+      &:hover{
+        padding: 1rem 2.4rem;
+        border-radius: 3rem;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 1.2rem;
+        background-color: #fff;
+        border-color:#fff;
+        color:#00adcb;
+      }
+  }
+  
+  /* DROPDOWN MENU
+  -------------------------------------------------- */
+  .dropdown-mega {
+    float: left;
+    overflow: hidden;
+    padding: 18px 0;
+    margin: 0 8px;
+    .dropbtn {
+      font-size: 16px;  
+      border: none;
+      outline: none;
+      padding: 0.5rem 1rem;
+      background-color: inherit;
+      font: inherit;
+      margin: 0;
+      font-weight: 600;
+      i{
+        font-size: .7rem;
+        position: relative;
+        top: -2px;
+        left: 6px;
+      }
+    }
+    &:hover .dropbtn{
+      color: #00adcb;
+    }
+    &:hover .dropdown-content {
+      display: block;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: rgba(20, 20, 19, 0.8);
+      width: 100%;
+      left: 0;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+      top: 76px;
+      padding: 15px;
+      min-height: 70px;
+      a{
+        color:#fff !important;
+        text-decoration: none;
+        font-size: 0.85rem;
+      }
+      ul h6{
+        color:#fff!important;
+        font-size: 1rem!important;
+        text-transform: uppercase;
+      }
+      .submenu li {
+        padding: .5em 0;
+        list-style: none;
+        a{
+          text-transform: uppercase;
+        }
+        a:hover{
+          color: #00adcb!important    
+        }              
+      }
+      .submenu li.child a:before {
+        content: "\f2b6";
+        font-family: 'bootstrap-icons';
+        top: 1px;
+        position: relative;
+        padding-right: 2px;
+        font-size: .8rem;
+        color: #00adcb !important;
+        font-weight: bold;
+    }
+    }
+  }
+  
+  /* FOOTER
+  -------------------------------------------------- */   
+  footer{
+    padding:48px 0 20px 0px!important;
+    background-color: #000;
+    h6{
+      color:#fff
+    }
+    ul{
+      padding-left: 3px;
+      li{
+        list-style-type: none;
+        padding-bottom: 10px;
+        a{
+          color:#fff;
+          text-decoration: none;
+          &:hover{
+            color:#00adcb!important
+          }
+          &:before{
+            content: "\f273";
+            font-family: 'bootstrap-icons';
+            top: 1px;
+            position: relative;
+            padding-right: 10px;
+            font-size: .8rem;
+            color:#00adcb!important
+          }
+        }
+      }
+    }
+    .effect {
+      padding: 0px 0px 20px 0px;
+      .buttons {
+        margin-top: 10px;
+        display: flex;
+      }
+      a {
+        text-decoration: none !important;
+        color: #fff;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        margin-right: 20px;
+        font-size: 22px;
+        overflow: hidden;
+        position: relative;
+        background-color: #00adcb;
+        i {
+          position: relative;
+          z-index: 3;
+          top:-3px
+        }
+        &:last-child {
+          margin-right: 0px;
+        }
+      }
+    }
+  }
+ 
+  /* aeneas effect */
+  .effect.aeneas a {
+    transition: transform 0.4s linear 0s, border-top-left-radius 0.1s linear 0s, border-top-right-radius 0.1s linear 0.1s, border-bottom-right-radius 0.1s linear 0.2s, border-bottom-left-radius 0.1s linear 0.3s;
+  }
+  .effect.aeneas a i {
+    transition: transform 0.4s linear 0s;
+  }
+  .effect.aeneas a:hover {
+    transform: rotate(360deg);
+    border-radius: 50%;
+  }
+  .effect.aeneas a:hover i {
+    transform: rotate(-360deg);
+  }
+    
+  /* CAROUSEL
+  -------------------------------------------------- */
+  .carousel-item {
+    height: 45rem;
+    .carousel-caption {
+      bottom: inherit!important;
+      z-index: 10;
+      left:0%!important;
+      right:0%!important;
+      h1{
+        font-size: 4rem;  
+      }
+    }
+    .overlay-data{
+      background: rgba(0, 0, 0, .5);
+      border-radius: 20px;
+      padding: 3rem;
+      p{
+        font-size: 1rem; 
+      }
+      img{
+        object-fit: none!important;
+        position: relative!important;
+        min-width: inherit!important;
+      }
+    }
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      object-fit: cover;
+      height: 100%;
+    }    
+  }
+  .carousel-indicators li{
+    background: rgb(0, 0, 0);
+    border:0px;
+    height:15px;
+    width:15px;
+    border-radius: 50%;
+    &.active{
+      background: rgba(0, 173, 203,1)!important;
+    }
+  }
+  
+
+  /* BANNER CAROUSEL CONTENT
+  -------------------------------------------------- */ 
+  .bannercarousel-section{
+    h2{
+      text-transform: uppercase;
+      font-size: 2.8rem;
+    }
+    .carousel-item .overlay-data {
+      background: rgba(0, 173, 203, 0.5);
+      border-radius: 20px;
+      padding: 3rem;
+      margin-right: 1rem;
+    }
+  }
+  
+  /* LEFTIMAGETEXT CONTENT
+  -------------------------------------------------- */ 
+  .leftimagetext-section{
+    h2 {
+      font-weight: 600;
+      color:#000;
+      font-size: 2.4rem;
+      .featurette-heading {
+        font-weight: 300;
+        line-height: 1;
+        letter-spacing: -.05rem;
+      }
+    }
+    h4,h5{
+      color:#000
+    }
+    img{
+       border-radius: 1rem;
+    }
+  }
+
+    /* RIGHTIMAGETEXT CONTENT
+  -------------------------------------------------- */ 
+  .rightimagetext-section{
+    background-color: #00adcb;
+    h4 {
+      font-weight: 700;
+      color:#fff;
+      .featurette-heading {
+        font-weight: 300;
+        line-height: 1;
+        letter-spacing: -.05rem;
+        color:#fff;
+      }
+    }
+    p{
+      color:#fff;
+    }
+    img{
+       border-radius: 1rem;
+    }
+  }
+
+  /* BANNER LEFT CONTENT
+  -------------------------------------------------- */ 
+  .bannerleft-section{
+    h2{
+      text-transform: uppercase;
+      font-size: 2.8rem;
+    }
+    .carousel-item .overlay-data {
+      background: rgba(0, 173, 203, 0.5);
+      border-radius: 20px;
+      padding: 3rem;
+      margin-left: .3rem;
+    }
+  }
+
+  /* BANNER RIGHT CONTENT
+  -------------------------------------------------- */ 
+  .bannerright-section{
+    h2{
+      text-transform: uppercase;
+      font-size: 2.8rem;
+    }
+    .carousel-item .overlay-data {
+      background: rgba(0, 173, 203, 0.5);
+      border-radius: 20px;
+      padding: 3rem;
+      margin-right: 1rem;
+    }
+  }
+  
+  
+  /* RESPONSIVE CSS
+  -------------------------------------------------- */
+  @media (min-width: 40em) {
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+    
+  @media (max-width: 991.98px) { 
+    body{
+      padding-top: 2.2rem;
+    }
+    .dropdown-mega .dropbtn{
+      padding: 0px;
+     
+    }
+    .dropdown-mega .dropdown-content{
+      position: relative!important;
+      top:0px;
+      min-height:inherit;
+      .col-lg-12.text-center{
+        text-align: left!important;      
+      }        
+    }
+    .submenu{
+      padding-left: 0px;
+    }
+    .h-120{
+      height: auto;
+    }
+  }
+  
+  
+  
+  
