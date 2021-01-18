@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import AOS from 'aos';
 import Demandpointelogo from '../../assets/images/demandpointe-logo.png'
-import Demandpointebg from '../../assets/images/demandpointe-bg.png'
-import Demandpointe1 from '../../assets/images/demandpointe-1.png'
-import Demandpointe2 from '../../assets/images/demandpointe-2.png'
+import Demandpointebg from '../../assets/images/demandpointe-bg.jpg'
+import Demandpointe1 from '../../assets/images/demandpointe-1.jpg'
+import Demandpointe2 from '../../assets/images/demandpointe-2.jpg'
 import Mainbannerinner from '../Layouts/Mainbannerinner'
 import Leftimagetext from '../Layouts/Leftimagetext'
 import Rightimagetext from '../Layouts/Rightimagetext'

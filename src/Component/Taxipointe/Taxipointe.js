@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import AOS from 'aos';
 import taxipointelogo from '../../assets/images/taxipointe-logo.png'
-import taxipointebg from '../../assets/images/taxipointe-bg.png'
-import taxipointefirst from '../../assets/images/taxipointe-1.png'
-import taxipointesec from '../../assets/images/taxipointe-2.png'
+import taxipointebg from '../../assets/images/taxipointe-bg.jpg'
+import taxipointefirst from '../../assets/images/taxipointe-1.jpg'
+import taxipointesec from '../../assets/images/taxipointe-2.jpg'
 import Mainbannerinner from '../Layouts/Mainbannerinner'
 import Leftimagetext from '../Layouts/Leftimagetext'
 import Rightimagetext from '../Layouts/Rightimagetext'

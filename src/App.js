@@ -26,7 +26,7 @@ function App() {
       <Router>
       <Header/>
       <Switch>    
-          <Route exact path="/">
+          <Route exact path="/spacepointe">
             <Home />
           </Route>          
           <Route path="/kardstash">

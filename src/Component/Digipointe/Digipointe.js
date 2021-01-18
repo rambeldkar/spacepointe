@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import AOS from 'aos';
 import digipointelogo from '../../assets/images/digipointe-logo.png'
-import digipointebg from '../../assets/images/digipointe-bg.png'
-import digipointefirst from '../../assets/images/digipointe-3.png'
-import digipointesec from '../../assets/images/digipointe-2.png'
+import digipointebg from '../../assets/images/digipointe-bg.jpg'
+import digipointefirst from '../../assets/images/digipointe-3.jpg'
+import digipointesec from '../../assets/images/digipointe-2.jpg'
 import Mainbannerinner from '../Layouts/Mainbannerinner'
 import Leftimagetext from '../Layouts/Leftimagetext'
 import Rightimagetext from '../Layouts/Rightimagetext'

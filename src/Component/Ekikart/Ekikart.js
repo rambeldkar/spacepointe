@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import AOS from 'aos';
-import ekikartlogo from '../../assets/images/ekikart-logo-blue.svg'
-import ekikartbg from '../../assets/images/ekikart-banner.png'
-import ekikartfirst from '../../assets/images/ekikart-3.png'
-import ekikartsec from '../../assets/images/ekikart-4.png'
-import ekikartthird from '../../assets/images/ekikart-5.png'
+import ekikartlogo from '../../assets/images/ekikart-logo-blue.png'
+import ekikartbg from '../../assets/images/ekikart-banner.jpg'
+import ekikartfirst from '../../assets/images/ekikart-3.jpg'
+import ekikartsec from '../../assets/images/ekikart-4.jpg'
+import ekikartthird from '../../assets/images/ekikart-5.jpg'
 import Mainbannerinner from '../Layouts/Mainbannerinner'
 import Leftimagetext from '../Layouts/Leftimagetext'
 import Rightimagetext from '../Layouts/Rightimagetext'

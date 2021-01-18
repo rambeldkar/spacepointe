@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import AOS from 'aos';
 import Revenuepointelogo from '../../assets/images/revenuepointe-logo.png'
-import Revenuepointebg from '../../assets/images/revenuepointe-bg.png'
-import Revenuepointe1 from '../../assets/images/revenuepointe-1.png'
-import Revenuepointe2 from '../../assets/images/revenuepointe-2.png'
+import Revenuepointebg from '../../assets/images/revenuepointe-bg.jpg'
+import Revenuepointe1 from '../../assets/images/revenuepointe-1.jpg'
+import Revenuepointe2 from '../../assets/images/revenuepointe-2.jpg'
 import Mainbannerinner from '../Layouts/Mainbannerinner'
 import Leftimagetext from '../Layouts/Leftimagetext'
 import Rightimagetext from '../Layouts/Rightimagetext'

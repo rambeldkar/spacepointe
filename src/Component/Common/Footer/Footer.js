@@ -18,8 +18,8 @@ class Footer extends Component {
                                         <a href="https://www.facebook.com/SpacePointe" target="_blank" className="fb" title="Join us on Facebook"><i class="bi bi-facebook" aria-hidden="true"></i></a>
                                         <a href="https://twitter.com/spacepointe" target="_blank" className="tw" title="Join us on Twitter"><i class="bi bi-twitter" aria-hidden="true"></i></a>                                    
                                         <a href="https://www.youtube.com/channel/UCndN1qZBYysoJwbLsIlv4Ew" target="_blank" className="pinterest" title="Join us on Youtube"><i class="bi bi-youtube" aria-hidden="true"></i></a>
-                                        <a href="#" target="_blank" className="insta" title="Join us on Instagram"><i class="bi bi-instagram" aria-hidden="true"></i></a>
-                                        <a href="#" target="_blank" className="in" title="Join us on Linked In"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
+                                        <a href="#"  className="insta" title="Join us on Instagram"><i class="bi bi-instagram" aria-hidden="true"></i></a>
+                                        <a href="#"  className="in" title="Join us on Linked In"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
                                     </div>
                                 </div>
                                 <img src={Logo} className="fluid-image w-75 pb-4" alt="logo"/>
@@ -39,11 +39,11 @@ class Footer extends Component {
                                 <ul>
                                     <li><a href="https://ekikart.com/" target="_blank">Ekikart </a></li>
                                     <li><a href="https://demandpointe.com/" target="_blank">DemandPointe</a></li>
-                                    <li><a href="/" target="_blank">DigiPointe</a></li>
+                                    <li><a href="/">DigiPointe</a></li>
                                     <li><a href="https://kardstash.com/" target="_blank">KardStash </a></li>
                                     <li><a href="https://revenuepointe.com/" target="_blank">RevenuePointe </a></li>
-                                    <li><a href="/" target="_blank">TaxiPointe </a></li>
-                                    <li><a href="/" target="_blank">TicketPointe </a></li>
+                                    <li><a href="/">TaxiPointe </a></li>
+                                    <li><a href="/">TicketPointe </a></li>
                                 </ul>
                             </div>
                             <div className="col-lg-2 col-12">

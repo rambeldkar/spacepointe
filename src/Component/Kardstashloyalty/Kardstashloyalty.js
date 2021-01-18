@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import AOS from 'aos';
-import kardstashlogo from '../../assets/images/kardstash-logo-white.svg';
-import kardstashloyalaltybg from '../../assets/images/kardstash-loyalalty-banner.png'
-import kardstashloyalaltyfirst from '../../assets/images/kardstash-loyalalty-1.png'
-import kardstashloyalaltythird from '../../assets/images/kardstash-loyalalty-2.png'
-import kardstashloyalaltysec from '../../assets/images/kardstash-loyalalty-3.png'
+import kardstashlogo from '../../assets/images/kardstash-logo-white.png';
+import kardstashloyalaltybg from '../../assets/images/kardstash-loyalalty-banner.jpg'
+import kardstashloyalaltyfirst from '../../assets/images/kardstash-loyalalty-1.jpg'
+import kardstashloyalaltythird from '../../assets/images/kardstash-loyalalty-2.jpg'
+import kardstashloyalaltysec from '../../assets/images/kardstash-loyalalty-3.jpg'
 import Mainbannerinner from '../Layouts/Mainbannerinner'
 import Leftimagetext from '../Layouts/Leftimagetext'
 import Rightimagetext from '../Layouts/Rightimagetext'

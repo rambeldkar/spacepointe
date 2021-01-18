@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import AOS from 'aos';
-import Kardstashlogo from '../../assets/images/kardstash-logo-white.svg'
+import Kardstashlogo from '../../assets/images/kardstash-logo-white.png'
 import Kardstashbg from '../../assets/images/kardstash-bg1.jpg'
 import Kardstash1 from '../../assets/images/kardstash-3.jpg'
 import Kardstash2 from '../../assets/images/kardstash-1.jpg'

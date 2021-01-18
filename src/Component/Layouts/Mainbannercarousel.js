@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import AOS from 'aos';
+import carousel from '../../../node_modules/bootstrap/js/dist/carousel'
 
 class Mainbannercarousel extends Component {
     componentDidMount() {

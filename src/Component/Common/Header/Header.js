@@ -12,7 +12,7 @@ class Header extends Component {
                 <header> 
                     <nav className="navbar navbar-expand-md navbar-dark shadow-sm fixed-top bg-white py-0">
                         <div className="container">
-                            <Link to="/" className="navbar-brand  me-md-auto w-25"><img src={Logoblack} className="w-100 py-2" alt="logo"/></Link>
+                            <Link to="/spacepointe" className="navbar-brand  me-md-auto w-25"><img src={Logoblack} className="w-100 py-2" alt="logo"/></Link>
                             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                             </button>

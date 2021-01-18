@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import AOS from 'aos';
 import ticketpointelogo from '../../assets/images/ticketpointe-logo.png'
-import ticketpointebg from '../../assets/images/ticketpointe-bg.png'
-import ticketpointefirst from '../../assets/images/ticketpointe-1.png'
-import ticketpointesec from '../../assets/images/ticketpointe-2.png'
+import ticketpointebg from '../../assets/images/ticketpointe-bg.jpg'
+import ticketpointefirst from '../../assets/images/ticketpointe-1.jpg'
+import ticketpointesec from '../../assets/images/ticketpointe-2.jpg'
 import Mainbannerinner from '../Layouts/Mainbannerinner'
 import Leftimagetext from '../Layouts/Leftimagetext'
 import Rightimagetext from '../Layouts/Rightimagetext'
