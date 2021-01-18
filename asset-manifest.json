@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/spacepointe/static/css/main.20e8e567.chunk.css",
-    "main.js": "/spacepointe/static/js/main.e44b693c.chunk.js",
-    "main.js.map": "/spacepointe/static/js/main.e44b693c.chunk.js.map",
+    "main.js": "/spacepointe/static/js/main.e309de3e.chunk.js",
+    "main.js.map": "/spacepointe/static/js/main.e309de3e.chunk.js.map",
     "runtime-main.js": "/spacepointe/static/js/runtime-main.47dc1819.js",
     "runtime-main.js.map": "/spacepointe/static/js/runtime-main.47dc1819.js.map",
     "static/css/2.de58de4b.chunk.css": "/spacepointe/static/css/2.de58de4b.chunk.css",
@@ -65,6 +65,6 @@
     "static/css/2.de58de4b.chunk.css",
     "static/js/2.7f1a4d9a.chunk.js",
     "static/css/main.20e8e567.chunk.css",
-    "static/js/main.e44b693c.chunk.js"
+    "static/js/main.e309de3e.chunk.js"
   ]
 }
